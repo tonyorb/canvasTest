@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TitleManagerTests {
@@ -52,7 +53,7 @@ public class TitleManagerTests {
     }
 
     @Test
-    void arcticleWithoutWords(){
+    void articleWithoutWords(){
         String article = "10101 0101 1101010 1010 10010101";
         String expectedTitle = "Unable to create a title";
 
